@@ -1,0 +1,53 @@
+#main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    border-radius:20px;
+}
+
+#title {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    justify-items: center;
+    margin: 20px;
+}
+
+#img-div {
+    background-color: white;
+    display:block;
+    padding:20px;
+    border-radius: 10px;
+}
+
+#image {
+    max-width:100%;
+    justify-items: center;
+    border-radius: 10px;
+    display:block;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+#tribunal-info {
+    font-size: 30px;
+    text-align: center;
+    font-weight:bold;
+    margin-top:40px;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+a {
+    font-size: 25px;
+}
