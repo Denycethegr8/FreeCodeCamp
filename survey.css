@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#title {
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#description {
+    margin-bottom: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 80%;
+    background-color: lightsalmon;
+    border: 8px white solid;
+    border-radius: 50px;
+
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: 0px;
+    background-color:;
+}
+
+form p {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 60%;
+    height: 130px;
+    margin: 20px 0 20px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit {
+    margin: 20px 0 20px 0;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    border: none;
+    background-color:maroon;
+    color:aliceblue;
+    padding: 5px;
+    font-size: 17px;
+}
