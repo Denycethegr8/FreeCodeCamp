@@ -14,19 +14,69 @@
     <h1 id = "title">Please tell me about you</h1>
     <p id = "description">I would like to get to know you</p>
     <form id ="survey-form">
-        <p>NAME</p>
-        <input id = "name">
-        <p>EMAIL</p>
-        <input id = "email">
-        <p>PHONE NUMBER</p>
-        <input id = "number">
-        <p>AGE</p>
-        <input id = "age">
-        <p>GENDER</p>
-        <input id = "gender">
-        <textarea>
-        
+        <label for = "name" id="name-label">NAME</label>
+        <input placeholder ="Type your name" id = "name">
+        <label id="email-label" for = "email">EMAIL</label>
+        <input placeholder ="Type your email address" id = "email">
+        <label for = "number">PHONE NUMBER</label>
+        <input placeholder = "Type your phone number" id = "number">
+        <label id="number-label" for = "age">AGE</label>
+        <input placeholder="Type or choose your age" type="number" min = "8" max = "150" id = "age">
+        <label for = "dropdown">GENDER</label>
+        <select id = "dropdown">
+            <option value = "0">Choose your gender</option>
+            <option value = "Female">Female</option>
+            <option value = "Male">Male</option>
+            <option value = "Non-Binary">Non-Binary</option>
+            <option value = "Transgender">Transgender</option>
+            <option value = "Prefer not to answer">Prefer not to answer</option>
+            </select>
+        <p>Where Are You From?</p>
+        <div id ="nationality">
+            <label><input type="radio" id ="asia" value ="asia"> Asia
+            </label>
+            <label><input type="radio" id ="north-america" value ="north-america"> North America
+            </label>
+        </div>
+        <p>What Food Do You Like? <span>(Check all you like)</span></p>
+        <div id="food">
+            <div class = "checkbox">        
+                <input type="checkbox" id = "pizza" name="pizza" value="pizza">
+                <label for="pizza">Pizza</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "chicken" name="chicken" value="chicken">
+                <label for="chicken">Chicken</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "pasta" name="pasta" value="pasta">
+                <label for="pasta">Pasta</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "Curry" name="Curry" value="Curry">
+                <label for="Curry">Curry</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "Sushi" name="Sushi" value="Sushi">
+                <label for="Sushi">Sushi</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "bulgogi" name="bulgogi" value="bulgogi">
+                <label for="bulgogi">Bulgogi</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "hamburger" name="hamburger" value="hamburger">
+                <label for="hamburger">Hamburger</label>
+            </div>
+            <div class = "checkbox"> 
+                <input type="checkbox" id = "Steak" name="Steak" value="Steak">
+                <label for="Steak">Steak</label>
+            </div>
+        </div>
+        <label for = "suggestion">Anything to Tell more more about you?</label>
+        <textarea id = "suggestion" placeholder="Feel free to say anything.">
         </textarea>
+                
         <button id = "submit">SUBMIT</button>
     </form>
 </body>
