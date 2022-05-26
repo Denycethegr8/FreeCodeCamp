@@ -27,8 +27,8 @@ body {
 
 }
 
-label[for=name]{
-    padding-top:15px;
+#name-label{
+    padding-top:30px;
 }
 
 input {
@@ -47,31 +47,25 @@ label, p {
     margin-bottom: 5px;
 }
 
-textarea {
-    width: 60%;
-    height: 130px;
-    margin: 20px 0 20px 0;
-    border: none;
-    border-radius: 10px;
-}
-
-#submit {
-    margin: 20px 0 20px 0;
-    font-family: 'Roboto Mono', monospace;
-    border-radius: 5px;
-    border: none;
-    background-color:maroon;
-    color:aliceblue;
-    padding: 5px;
-    font-size: 17px;
-}
-
-::placeholder {
-    padding-left: 10px;
-}
 
 option {
     font-size: 15px;
+}
+
+span {
+    font-size: 15px;
+}
+
+#nationality {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    align-items: center;
+    padding-top: 10px;
+}
+
+input[type=radio]{
+    width: 20px;
 }
 
 select {
@@ -81,6 +75,39 @@ select {
 
 #food {
     display:grid;
-    grid-template-columns: repeat (3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    width:90%;
+    align-items: center;
+    padding-bottom: 30px;
 }
 
+input[type=checkbox]{
+    width: 30%;
+}
+
+#food label{
+    width: 20%;
+}
+
+textarea {
+    width: 60%;
+    height: 130px;
+    margin: 20px 0 20px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+#submit {
+    margin: 20px 0 40px 0;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    border: none;
+    background-color:maroon;
+    color:aliceblue;
+    padding: 5px;
+    font-size: 17px;
+}
