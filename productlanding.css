@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Libre Baskerville', serif;
 }
 
 header{
@@ -21,8 +22,8 @@ ul{
 
 li{
     display: inline;
-    padding: 0 50px 0 50px;
-    font-size: 20px;
+    padding: 0 70px 0 70px;
+    font-size: 17px;
 }
 
 nav a{
@@ -35,9 +36,63 @@ nav a{
 }
 
 #content{
-    display:relative;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
 }
-p{
+
+#form{
+    position:relative;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    margin: 50px 0 80px 0;
+    display:flex;
+    flex-direction: column;
+}
+
+#form p{
+    font-size: 30px;
+    color:black;
+}
+
+input {
+    font-size:20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#email{
+    background-color: black;
     color:white;
+}
+
+::placeholder{
+    color:white;
+}
+
+#submit{
+    margin: 10px 0 30px 0;
+}
+
+#ethos{
+    margin: 80px 0 70px 0;
+    width:100%;
+    color:white;
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+}
+
+li{
+    font-size:25px;
+    text-align: center;
+}
+
+.ethos-head{
+    font-weight:bolder;
 }
