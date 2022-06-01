@@ -14,58 +14,84 @@
     <title>Product landing</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div id="header-logo">   
-                <image id="logo" src="tarform.png"></image>
+                <image id="header-img" src="https://www.tarform.com/wp-content/uploads/2020/06/tarform_logo-1-1.png"></image>
         </div>
         <div id="nav-div">
-            <nav class="nav-bar">
+            <nav id="nav-bar">
                 <ul>
                     <li>
-                        <a href="#ethos">ETHOS</a>
+                        <a class="nav-link" href="#ethos">ETHOS</a>
                     </li>
                     <li>
-                        <a href="#spec">SPECIFICATION</a>
+                        <a class="nav-link" href="#spec">SPECIFICATIONS</a>
                     </li>
                     <li>
-                        <a href="#article">ARTICLE</a>
+                        <a class="nav-link" href="#article">ARTICLE</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <div id="content">
-    <div id="form">
+    <div id="form-div">
         <p>Get the latest news from us!</p>
-        <form action="https://www.freecodecamp.com/email-submit"></form>
-        <input id="email" placeholder="Enter your email address" required>
-        <input type="submit" value="SUBSCRIBE" id="submit">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type ="email"
+            name="email" id="email" placeholder="Enter your email address" required>
+            <input type="submit" value="SUBSCRIBE" id="submit">
+        </form>
     </div>
     <iframe id="video" title="vimeo-player" src="https://player.vimeo.com/video/444766959?h=df6fe5d508" width="640" height="360" frameborder="0" allowfullscreen></iframe>
     <div id="ethos">
+        <hr class ="hr-top">
         <ul>
             <li>
                 <span class="ethos-head">Design for change</span>
-                <br>
                 A modular platform that enables continuous upgradability of parts and aesthetic appearance. 
             </li>
             <li>
                 <span class="ethos-head">Intelligence</span>
-                <br>
                 Utilize sensors and technology to create a safer experience and provide meaningful insights to the rider.
             </li>
             <li>
                 <span class="ethos-head">Respect Nature</span>
-                <br>
                 Build vehicles using bio-based and recyclable high performance materials that do the least amount of harm to our environment.
             </li>
         </ul>
     </div>
     <div id="spec">
-
+        <p>3.4" HD display with bluetooth<br>
+            blindspot detection with haptic feedback<br>
+            hd 180° rear view camera<br>
+            sonic aura acoustic sound<br>
+            3 riding modes<br>
+            regenerative braking<br>
+            keyless proximity ignition<br>
+            <br>
+            hand fabricated trellis frame<br>
+            ohlins front and rear suspension<br>
+            isr performance brakes<br>
+            18" billet aluminium or spoked wheels<br>
+            biodegradable fairings<br>
+            <br>
+            10kwh battery pack<br>
+            41kw (55hp) motor<br>
+            3.3kw onboard charger<br>
+            33" seat height<br>
+            25° rake<br>
+            440 lbs weight</p>
+            <img src ="tarform.jpg" id="spec-img">
     </div>
     <div id="article">
-
+        <p>When I first saw the beautiful machines that electric motorbike company TARFORM created my jaw dropped (and I'm not even into motorcycles)<br>
+        <span>Afdhel Aziz - Forbes</span></p>
+        <p>'Motorcycle of tomorrow' is heavy on flair and light on the environment<br>
+        <span>New York Times</span></p>
+        <p>The TARFORM - A futuristic electric motorcycle stands in stark contrast to its traditional, rough-and-tumble fellow two-wheelers<br>
+        <span>Zachary Weiss - RL MAG</span></p>
+        <p>Completely powered by electricity and designed to withstand fleeting trends, the TARFORM could be the motorcycle of the future.<br><span>Robb Report</span></p>
     </div>
 </div>
     </body>

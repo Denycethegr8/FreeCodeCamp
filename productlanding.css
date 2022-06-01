@@ -1,3 +1,21 @@
+@media (max-width:800px){
+    header{
+        position:absolute;
+    }
+
+    ul, #article {
+        flex-wrap: wrap;
+    }
+
+    li{
+        margin-top:30px;
+    }
+
+    #spec-img{
+        height:300px;
+    }
+}
+
 body{
     background-color: black;
     font-family: 'Libre Baskerville', serif;
@@ -13,6 +31,7 @@ header{
     width:100%;
     padding-top:20px;
     background-color: black;
+    z-index: 100;
 
 }
 
@@ -23,16 +42,16 @@ ul{
 li{
     display: inline;
     padding: 0 70px 0 70px;
-    font-size: 17px;
 }
 
 nav a{
     text-decoration: none;
-    color:white;
+    color:floralwhite;
+    font-size: 17px;
 }
 
-#logo {
-    height:30px;
+#header-img {
+    height:50px;
 }
 
 #content{
@@ -44,17 +63,17 @@ nav a{
     font-family: 'Ubuntu', sans-serif;
 }
 
-#form{
+#form-div{
     position:relative;
     width: 100%;
-    background-color: white;
+    background-color: floralwhite;
     align-items: center;
     margin: 50px 0 80px 0;
     display:flex;
     flex-direction: column;
 }
 
-#form p{
+#form-div p{
     font-size: 30px;
     color:black;
 }
@@ -66,21 +85,27 @@ input {
 
 #email{
     background-color: black;
-    color:white;
+    color:floralwhite;
 }
 
 ::placeholder{
-    color:white;
+    color:floralwhite;
 }
 
 #submit{
     margin: 10px 0 30px 0;
 }
 
+.hr-top{
+    margin-bottom: 100px;
+    color: floralwhite
+}
+
+
 #ethos{
-    margin: 80px 0 70px 0;
-    width:100%;
-    color:white;
+    margin: 150px 0 120px 0;
+    width:90%;
+    color:floralwhite;
 }
 
 ul{
@@ -91,8 +116,52 @@ ul{
 li{
     font-size:25px;
     text-align: center;
+    flex: 1 1 0px;
 }
 
 .ethos-head{
     font-weight:bolder;
+    display:block;
+    margin-bottom:15px;
+    
+}
+
+#spec{
+    color:floralwhite;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+
+#spec-img{
+    width:500px;
+    margin-left: 50px;
+}
+
+#article{
+    color:floralwhite;
+    font-size:20px;
+    display: flex;
+    margin: 150px 0 100px 0;
+    width: 90%;
+    align-items: end;
+}
+
+#article p{
+    flex:1 1 0px;
+    margin:20px;
+    border: 1px floralwhite solid;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-wrap:break-word;
+}
+
+#article span{
+    font-weight:bolder;
+    margin-top:20px;
+    display:block;
+    text-align: end;
 }
