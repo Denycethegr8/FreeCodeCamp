@@ -1,0 +1,38 @@
+#navbar{
+    position:fixed;
+    left: 0px;
+    width:400px;
+}
+
+
+main{
+    position:absolute;
+    left: 500px;
+}
+
+#navbar{
+    margin-left:20px;
+}
+
+nav header{
+    font-size: 40px;
+    font-weight:bolder;
+}
+
+nav a{
+    display:block;
+    margin: 50px 0 50px 0;
+    padding-right: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+#navbar{
+    border-right:2px grey solid;
+}
+
